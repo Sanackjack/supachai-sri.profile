@@ -1,19 +1,330 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Supachai Sriphothong | Senior Backend Developer</title>
+  <meta name="description" content="Portfolio of Supachai Sriphothong – Senior Backend Developer specializing in Java, Spring Boot, Golang, AWS, and Microservices architecture." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Hello, I'm John</h1>
-    <p>Software Developer</p>
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">SS<span class="dot">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="mailto:nack.sriphothong@gmail.com" class="btn-hire">Hire Me</a>
+    </div>
+  </nav>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>Project A</li>
-        <li>Project B</li>
-    </ul>
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-photo-wrap">
+        <div class="photo-ring"></div>
+        <img src="profile_photo.png" alt="Supachai Sriphothong" class="hero-photo" id="hero-photo" />
+        <div class="status-badge"><span class="status-dot"></span>Available for work</div>
+      </div>
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Supachai<br /><span class="name-accent">Sriphothong</span></h1>
+        <div class="hero-title-wrap"><span class="hero-title">Senior Backend Developer</span></div>
+        <p class="hero-tagline">"I immerse in my work. Like to search for knowledge, Good human relationship…"</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn-primary" id="cta-contact">Get In Touch</a>
+          <a href="#experience" class="btn-outline" id="cta-work">View My Work</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Years Exp.</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">3</span><span class="stat-label">Companies</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">15+</span><span class="stat-label">Technologies</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint"><div class="scroll-wheel"></div><span>Scroll down</span></div>
+  </section>
 
-    <h2>Contact</h2>
-    <p>Email: example@email.com</p>
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2>About <span class="accent">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card" id="about-education">
+          <div class="about-card-icon">🎓</div>
+          <h3>Education</h3>
+          <div class="edu-item">
+            <p class="edu-degree">Bachelor's Degree</p>
+            <p class="edu-major">Computer Engineering</p>
+            <p class="edu-school">Rajamangala University of Technology Thanyaburi</p>
+            <span class="edu-gpa">GPA 3.20</span>
+          </div>
+          <div class="edu-item edu-prev">
+            <p class="edu-degree">Higher Vocational Certificate</p>
+            <p class="edu-major">Technician Computer</p>
+            <p class="edu-school">Uttaradit Technical College</p>
+            <span class="edu-gpa">GPA 3.60</span>
+          </div>
+        </div>
+        <div class="about-card" id="about-hobbies">
+          <div class="about-card-icon">💡</div>
+          <h3>Hobbies &amp; Interests</h3>
+          <div class="hobby-item">
+            <span class="hobby-emoji">📚</span>
+            <div><p class="hobby-name">Psychology &amp; Self-Improvement</p><p class="hobby-desc">Always reading books to grow personally and professionally</p></div>
+          </div>
+          <div class="hobby-item">
+            <span class="hobby-emoji">₿</span>
+            <div><p class="hobby-name">Blockchain &amp; Crypto</p><p class="hobby-desc">Interested in ICO, IPO, Cryptocurrency (Bitcoin), Blockchain technology</p></div>
+          </div>
+        </div>
+        <div class="about-card" id="about-activity">
+          <div class="about-card-icon">🏆</div>
+          <h3>Activities</h3>
+          <div class="activity-item"><div class="activity-icon">🛡️</div><p>Cyber Security Training Thailand 6th</p></div>
+          <div class="activity-item"><div class="activity-icon">👨‍💻</div><p>Leader — Student Computer Engineer major, Rajamangala University of Technology Thanyaburi</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Journey</span>
+        <h2>Work <span class="accent">Experience</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item left reveal" id="exp-thaicredit">
+          <div class="timeline-dot"><span>🏦</span></div>
+          <div class="timeline-card">
+            <div class="tcard-header">
+              <div>
+                <span class="tcard-period">2022 – Present</span>
+                <h3 class="tcard-company">Thaicredit Bank</h3>
+                <span class="tcard-role">Senior Developer</span>
+              </div>
+              <span class="tcard-badge current">Current</span>
+            </div>
+            <div class="tcard-projects">
+              <div class="project-block">
+                <h4>🔧 Backend Core-bank Service</h4>
+                <p>Service API for 3rd-party manage transactions connected to IBM AS400</p>
+                <div class="tech-tags">
+                  <span>Spring Boot</span><span>Mockito</span><span>JUnit</span><span>Nginx</span><span>Jenkins</span><span>JBOSS</span><span>PostgreSQL</span><span>AWS CloudWatch</span><span>AWS SNS</span><span>Apache Kafka</span><span>RabbitMQ</span>
+                </div>
+              </div>
+              <div class="project-block">
+                <h4>📱 Mobile Banking Service API</h4>
+                <p>Microservices built with Golang, fully deployed on AWS Cloud</p>
+                <div class="tech-tags">
+                  <span>Golang</span><span>AWS EKS</span><span>Lambda</span><span>RDS</span><span>API Gateway</span><span>S3</span><span>Secret Manager</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item right reveal" id="exp-truemoney">
+          <div class="timeline-dot"><span>💰</span></div>
+          <div class="timeline-card">
+            <div class="tcard-header">
+              <div>
+                <span class="tcard-period">2019 – 2022</span>
+                <h3 class="tcard-company">True Money / Ascend Group</h3>
+                <span class="tcard-role">Junior Developer</span>
+              </div>
+            </div>
+            <div class="tcard-projects">
+              <div class="project-block">
+                <h4>🖥️ Tiny Kiosk System (7-Eleven)</h4>
+                <p>Backend API for payment bill, Topup TrueMoney Wallet, Mobile Topup, TrueVision packages</p>
+                <div class="tech-tags"><span>Spring Boot</span><span>OpenShift</span><span>Docker</span><span>Oracle</span><span>Redis</span><span>Prometheus</span><span>Kibana</span><span>Grafana</span></div>
+              </div>
+              <div class="project-block">
+                <h4>🌍 True Money Transfer (IRS)</h4>
+                <p>Web app &amp; mini-app on TrueMoney wallet for overseas money transfers</p>
+                <div class="tech-tags"><span>Spring Boot</span><span>React</span><span>AWS EC2</span><span>AWS EKS</span><span>MySQL RDS</span></div>
+              </div>
+              <div class="project-block">
+                <h4>🌐 TrueMoneyExpress Web</h4>
+                <p>Website for dealers to pay utility bills and topup wallets</p>
+                <div class="tech-tags"><span>Spring Boot</span><span>PHP (CI1)</span><span>OpenShift</span><span>Oracle</span></div>
+                <a href="https://dealer.truemoney.com/tmxonline2/" target="_blank" class="project-link">🔗 Visit Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item left reveal" id="exp-bossup">
+          <div class="timeline-dot"><span>💼</span></div>
+          <div class="timeline-card">
+            <div class="tcard-header">
+              <div>
+                <span class="tcard-period">2016 – 2019</span>
+                <h3 class="tcard-company">Bossup Solution</h3>
+                <span class="tcard-role">Senior Developer</span>
+              </div>
+            </div>
+            <div class="tcard-projects">
+              <div class="project-block">
+                <h4>📺 Digital Signage IYARA</h4>
+                <p>Real-time content push system for digital signage displays</p>
+                <div class="tech-tags"><span>C# WPF</span><span>PHP</span><span>Apache (XAMPP)</span></div>
+              </div>
+              <div class="project-block">
+                <h4>👔 Department of Employment</h4>
+                <p>Job search website for the Thai government employment office</p>
+                <div class="tech-tags"><span>Spring Boot</span><span>JSP</span><span>Oracle WebLogic</span></div>
+                <a href="https://employmentguide.doe.go.th/" target="_blank" class="project-link">🔗 Visit Site</a>
+              </div>
+              <div class="project-block">
+                <h4>🏢 SSO Employee Management</h4>
+                <p>Web app for Social Security Office employee management</p>
+                <div class="tech-tags"><span>Spring Boot</span><span>Jasper Report</span></div>
+              </div>
+              <div class="project-block">
+                <h4>📱 App Mobile Boonthavorn</h4>
+                <p>Android shopping app for Boonthavorn retail products</p>
+                <div class="tech-tags"><span>Java</span><span>Android Studio</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item right reveal" id="exp-nectec">
+          <div class="timeline-dot"><span>🔬</span></div>
+          <div class="timeline-card">
+            <div class="tcard-header">
+              <div>
+                <span class="tcard-period">Jun – Aug 2015</span>
+                <h3 class="tcard-company">NECTEC</h3>
+                <span class="tcard-role">Android Developer (Intern)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Do</span>
+        <h2>Technical <span class="accent">Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal" id="skill-backend">
+          <div class="skill-cat-icon">⚙️</div>
+          <h3>Backend</h3>
+          <div class="skill-pills">
+            <span class="pill pill-1">Java</span><span class="pill pill-1">Spring Boot</span><span class="pill pill-1">Golang</span><span class="pill pill-1">JSP</span><span class="pill pill-1">PHP</span><span class="pill pill-1">C#</span><span class="pill pill-1">.NET Core</span><span class="pill pill-1">WPF</span>
+          </div>
+        </div>
+        <div class="skill-category reveal" id="skill-frontend">
+          <div class="skill-cat-icon">🎨</div>
+          <h3>Frontend</h3>
+          <div class="skill-pills">
+            <span class="pill pill-2">HTML</span><span class="pill pill-2">JavaScript</span><span class="pill pill-2">Next.js</span><span class="pill pill-2">Vue.js</span><span class="pill pill-2">React</span><span class="pill pill-2">Android (Java)</span>
+          </div>
+        </div>
+        <div class="skill-category reveal" id="skill-db">
+          <div class="skill-cat-icon">🗄️</div>
+          <h3>Database</h3>
+          <div class="skill-pills">
+            <span class="pill pill-3">MySQL</span><span class="pill pill-3">Oracle</span><span class="pill pill-3">PostgreSQL</span><span class="pill pill-3">Redis</span>
+          </div>
+        </div>
+        <div class="skill-category reveal" id="skill-cloud">
+          <div class="skill-cat-icon">☁️</div>
+          <h3>Cloud &amp; DevOps</h3>
+          <div class="skill-pills">
+            <span class="pill pill-4">AWS EKS</span><span class="pill pill-4">AWS Lambda</span><span class="pill pill-4">AWS S3</span><span class="pill pill-4">AWS RDS</span><span class="pill pill-4">Azure</span><span class="pill pill-4">OpenShift</span><span class="pill pill-4">Docker</span><span class="pill pill-4">Jenkins</span><span class="pill pill-4">CI/CD</span><span class="pill pill-4">Nginx</span>
+          </div>
+        </div>
+        <div class="skill-category reveal" id="skill-messaging">
+          <div class="skill-cat-icon">📨</div>
+          <h3>Messaging</h3>
+          <div class="skill-pills">
+            <span class="pill pill-5">Apache Kafka</span><span class="pill pill-5">RabbitMQ</span><span class="pill pill-5">AWS SNS</span>
+          </div>
+        </div>
+        <div class="skill-category reveal" id="skill-testing">
+          <div class="skill-cat-icon">🧪</div>
+          <h3>Testing</h3>
+          <div class="skill-pills">
+            <span class="pill pill-6">JUnit</span><span class="pill pill-6">Mockito</span><span class="pill pill-6">Robot Framework</span><span class="pill pill-6">JMeter</span><span class="pill pill-6">Selenium</span><span class="pill pill-6">Mountebank</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Talk</span>
+        <h2>Get In <span class="accent">Touch</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-intro">I'm always open to discussing new opportunities, interesting projects, or just having a great conversation about technology.</p>
+          <div class="contact-item" id="contact-phone">
+            <div class="contact-icon">📞</div>
+            <div><span class="contact-label">Phone</span><a href="tel:0632183777" class="contact-value">063-2183777</a></div>
+          </div>
+          <div class="contact-item" id="contact-email">
+            <div class="contact-icon">✉️</div>
+            <div><span class="contact-label">Email</span><a href="mailto:nack.sriphothong@gmail.com" class="contact-value">nack.sriphothong@gmail.com</a></div>
+          </div>
+          <div class="contact-item" id="contact-location">
+            <div class="contact-icon">📍</div>
+            <div><span class="contact-label">Location</span><span class="contact-value">52/8 Srisuda, Moo 2, Soi ChulaKasam<br/>Ngamwongwan Rd., Bangkhen, Bangkok 11000</span></div>
+          </div>
+          <div class="contact-item" id="contact-github">
+            <div class="contact-icon">🐙</div>
+            <div><span class="contact-label">GitHub</span><a href="https://github.com/Sanackjack" target="_blank" class="contact-value">github.com/Sanackjack</a></div>
+          </div>
+        </div>
+        <div class="contact-map-card">
+          <div class="map-placeholder">
+            <div class="map-pin">📌</div>
+            <p>Bangkok, Thailand</p>
+            <span>Bangkhen, 11000</span>
+          </div>
+          <a href="mailto:nack.sriphothong@gmail.com" class="btn-primary full-width" id="contact-cta-email">Send me an email →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="nav-logo">SS<span class="dot">.</span></span>
+      <p>© 2024 Supachai Sriphothong. Built with passion &amp; code.</p>
+      <div class="footer-links">
+        <a href="https://github.com/Sanackjack" target="_blank">GitHub</a>
+        <a href="mailto:nack.sriphothong@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
